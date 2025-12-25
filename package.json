@@ -1,0 +1,33 @@
+{
+  "name": "lucas-jacques-card",
+  "version": "1.0.0",
+  "description": "Carte de visite professionnelle de Lucas Jacques - DevOps Engineer chez RaceUp",
+  "main": "index.html",
+  "scripts": {
+    "dev": "live-server --port=3000 --open=index.html",
+    "start": "npm run dev",
+    "build": "node build.js",
+    "preview": "live-server --port=8080 --open=index.html --no-browser",
+    "deploy": "echo 'Prêt pour le déploiement sur GitHub Pages, Netlify ou Vercel'"
+  },
+  "keywords": [
+    "carte-de-visite",
+    "portfolio",
+    "devops",
+    "business-card",
+    "static-site"
+  ],
+  "author": "Lucas Jacques",
+  "license": "MIT",
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/votre-username/card.git"
+  },
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=6.0.0"
+  }
+}
